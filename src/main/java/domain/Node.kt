@@ -8,7 +8,7 @@ import kotlin.js.Math
  * @property[x] x-axis of the coordinates
  * @property[y] y-axis of coordinate
  */
-data class Node (val name: String, val x: Double, val y: Double)  {
+data class Node (val name: String, val x: Double, val y: Double, val edges: MutableSet<Edge>)  {
     /**
      * Calculates the Euclidean distance from this [Node] to another,
      * based on their x/y coordinates

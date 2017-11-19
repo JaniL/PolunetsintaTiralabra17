@@ -13,4 +13,6 @@ ennen kun voin jatkaa Dijkstran parissa tai sitten keksin jotain muuta.
 Mulla on viikolla ollut heikosti aikaa, mutta mun pitäisi nyt oikeasti
 allokoida sitä enemmän jos haluan jatkaa kurssilla.
 
+Ehkä mun pitäisi keksiä jotain helppoa hommaa.
+
 Viikon työaika: 5h

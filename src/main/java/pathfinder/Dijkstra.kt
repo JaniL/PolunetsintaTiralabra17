@@ -5,7 +5,7 @@ import main.java.domain.Node
 
 class Dijkstra {
     fun search(graph: Graph, start: Node, target: Node) {
-        val Q: Set<Node> = graph.nodes
+        val Q: MutableSet<Node> = graph.nodes as MutableSet<Node>
         // val dist: Array<Double> = Array(graph.nodes.size, { i -> Double.MAX_VALUE })
         // val prev: Array<Node?> = arrayOfNulls(graph.nodes.size)
         val dist: MutableMap<Node, Double> = mutableMapOf<Node, Double>()
@@ -18,8 +18,16 @@ class Dijkstra {
         dist.set(start, 0.0)
 
         while (Q.isNotEmpty()) {
-        
+            var u = getNodeWithMinDist(graph.nodes)
+
+            Q.remove(u)
+
+            for (edge in u.edges) {
+                
+            }
         }
 
     }
+
+    private fun getNodeWithMinDist(nodes: Set<Node>): Node = throw NotImplementedError()
 }
