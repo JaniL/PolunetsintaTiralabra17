@@ -1,3 +1,4 @@
+package main.java.domain
 import kotlin.js.Math
 
 /**
